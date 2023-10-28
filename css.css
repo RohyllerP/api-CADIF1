@@ -1,0 +1,43 @@
+main{
+    padding: 20px 30px;
+    background-color:midnightblue;
+}
+#areas-estudios > div, #carreras > div{
+    margin: 20px 0px;
+    display: flex;
+    background-color:darkslategray;
+    color: white;
+    cursor: pointer;
+}
+#areas-estudios > div p,#carreras > div p{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+#modalBody > div{
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px 0px;
+    color: white;
+    background-color:midnightblue;
+}
+.div-carreras-pensum{
+    color: white;
+    padding: 5px;
+    background-color:midnightblue;
+    margin: 20px 0px;
+}
+.curso-info{
+    padding: 20px 10px;
+}
+.niveles-curso-info{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.niveles-curso-info:not(:last-child){
+    border-bottom: 1px solid black;
+}
+.p-niveles{
+    padding-left: 10px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}

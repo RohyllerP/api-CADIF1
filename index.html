@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>JAVASCRIPT V</title>
+</head>
+
+<body>
+    <!-- Button trigger modal -->
+    <button type="button" id="modal-activar" class="btn btn-primary d-none" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Activar modal
+    </button>
+    <button type="button" id="modal-activar-two" class="btn btn-primary d-none" data-bs-toggle="modal" data-bs-target="#exampleModalTwo">
+        Activar modal
+    </button>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Cursos del id:</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="modalBody"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModalTwo" tabindex="-1" aria-labelledby="exampleModalLabelTwo" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabelTwo"></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="modalBodyTwo"></div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <h3 class="text-white">Areas de estudio:</h3>
+        <div id="areas-estudios"></div>
+        <h3 class="text-white">Carreras de la academia</h3>
+        <div id="carreras"></div>
+    </main>
+    <!-- utilización de jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
